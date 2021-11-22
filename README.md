@@ -79,7 +79,7 @@ passando um JSON no corpo da requisição, como o seguinte exemplo:
 
 #### Listando usuários
 -Para listar um usuário pelo ID acesse a rota com o método **GET**: ```http://localhost:3392/users/:_id``` <br>
-ou ```https://posts-blog-api.herokuapp.com/users/:_id```.
+ou ```https://posts-blog-api.herokuapp.com/users/:_id```. <br>
 -Para listar por email acesse a rota com o método **GET**: ```http://localhost:3392/users``` <br>
 ou ```https://posts-blog-api.herokuapp.com/users```. Com o seguinte JSON como exemplo:
 
