@@ -58,7 +58,7 @@ ou ```https://posts-blog-api.herokuapp.com/users/:_id```, passando um JSON no co
 
 {
 	"name": "Rodrigo",
-  "email": "rodrigo@example.com",
+  	"email": "rodrigo@example.com",
 	"password": "12345678"
 }
 
