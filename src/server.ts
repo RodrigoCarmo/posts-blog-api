@@ -13,4 +13,4 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(routes)
 
-app.listen(process.env.PORT || process.env.SERVER_PORT, () => console.log('\x1b[32m', `🐱‍💻 Servidor rodando na porta: ${process.env.SERVER_PORT}`))
+app.listen(process.env.PORT || 3392, () => console.log('\x1b[32m', `🐱‍💻 Servidor rodando na porta: ${process.env.SERVER_PORT}`))
