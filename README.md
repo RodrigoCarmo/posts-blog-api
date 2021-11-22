@@ -91,7 +91,7 @@ ou ```https://posts-blog-api.herokuapp.com/users```. Com o seguinte JSON como ex
 
 ```
 
--Listar todos os usuários com o método **GET** na seguinte rota: ```http://localhost:3392/users/all`` <br>
+-Listar todos os usuários com o método **GET** na seguinte rota: ```http://localhost:3392/users/all``` <br>
  ou ```https://posts-blog-api.herokuapp.com/users/all```.
 
 #### Criando posts
@@ -146,7 +146,7 @@ ou ```https://posts-blog-api.herokuapp.com/posts/:_id```, com o ID nos parâmetr
 #### Listando posts
 -Para listar um post pelo ID acesse a rota com o método **GET**: ```http://localhost:3392/posts/:_id``` <br>
 ou ```https://posts-blog-api.herokuapp.com/posts/:_id```.
--Listar todos os usuários com o método **GET** na seguinte rota: ```http://localhost:3392/posts/all`` <br> 
+-Listar todos os usuários com o método **GET** na seguinte rota: ```http://localhost:3392/posts/all``` <br> 
 ou ```https://posts-blog-api.herokuapp.com/posts/all```.
 
 
