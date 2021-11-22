@@ -1,6 +1,7 @@
 # Posts blog API
 
 O arquivo ```saude-id-routes-insomnia``` presente no repositório, trata-se do arquivo JSON com as rotas para uso no Insomnia.
+Basta alternar entre as variáveis para escolher local ou o deploy do Heroku.
 
 ## 👨‍🏫Instruções
 Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuração.<br>
