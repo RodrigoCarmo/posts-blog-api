@@ -160,5 +160,6 @@ As seguintes ferramentas foram usadas na construção do projeto:<br>
 - [ESLint](https://eslint.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [Heroku](https://www.heroku.com/)
+- [Insomnia](https://insomnia.rest/)
 
 
