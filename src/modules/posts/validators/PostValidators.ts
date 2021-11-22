@@ -26,19 +26,19 @@ class PostIdValidator {
 
 class UpdatePostValidator {
     @IsMongoId()
-    @IsNotEmpty()
+    @IsOptional()
     author?: string
 
     @IsString()
-    @IsNotEmpty()
+    @IsOptional()
      title?: string
 
      @IsString()
-     @IsNotEmpty()
+     @IsOptional()
      description?: string
 
      @IsArray()
-     @IsNotEmpty()
+     @IsOptional()
      categories?: []
 }
 

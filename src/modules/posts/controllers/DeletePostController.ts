@@ -1,10 +1,10 @@
 import { validate } from 'class-validator'
 import { Request, Response } from 'express'
 import { DeletePostService } from '../services/DeletePostService'
-import { PostIdValidator } from '../validators/postValidators'
+import { PostIdValidator } from '../validators/PostValidators'
 
 class DeletePostController {
-  public async deleteUser (request: Request, response: Response): Promise<void> {
+  public async deletePost (request: Request, response: Response): Promise<void> {
     const { _id } = request.body
 
     const deletePostService = new DeletePostService()
@@ -19,9 +19,9 @@ class DeletePostController {
       }
 
       try {
-        const deleteUser = await deletePostService.deletePost(_id)
+        const deletePost = await deletePostService.deletePost(_id)
 
-        return response.status(200).json(deleteUser)
+        return response.status(200).json(deletePost)
       } catch (error) {
         if (error instanceof Error) {
           return response.status(400).json({ message: error.message })

@@ -1,7 +1,7 @@
 import { validate } from 'class-validator'
 import { Request, Response } from 'express'
 import { ListPostService } from '../services/ListPostService'
-import { PostIdValidator, PostLimiterValidator } from '../validators/postValidators'
+import { PostIdValidator, PostLimiterValidator } from '../validators/PostValidators'
 
 class ListPostController {
   public async listUserByAuthor (request: Request, response: Response): Promise<void> {

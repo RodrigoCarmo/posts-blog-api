@@ -2,7 +2,7 @@ import { validate } from 'class-validator'
 import { Request, Response } from 'express'
 import { UpdatePostDTO } from '../dtos/postDTO'
 import { UpdatePostService } from '../services/UpdatePostService'
-import { PostIdValidator, UpdatePostValidator } from '../validators/postValidators'
+import { PostIdValidator, UpdatePostValidator } from '../validators/PostValidators'
 
 class UpdatePostController {
   public async updateUser (request: Request, response: Response): Promise<void | any> {

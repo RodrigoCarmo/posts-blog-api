@@ -4,8 +4,8 @@ class DeletePostService {
   public async deletePost (_id: string): Promise<void> {
     const postRepository = new PostRepository()
 
-    const checkExistsUserId = await postRepository.findPostById(_id)
-    if (checkExistsUserId === null) {
+    const checkExistsPostId = await postRepository.findPostById(_id)
+    if (checkExistsPostId === null) {
       throw new Error('This post does not exists!')
     }
 
