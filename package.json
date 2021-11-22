@@ -18,6 +18,7 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
+    "start": "node src/server.ts",
     "dev:server": "ts-node-dev src/server.ts"
   },
   "devDependencies": {
