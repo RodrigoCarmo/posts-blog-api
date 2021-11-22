@@ -16,7 +16,7 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 -Se executar de forma local, é importante ter o MongoDB instalando para o funcionamento do banco de dados.<br>
 -A conexão com o MongoDB local já está estabelecida caso não utilize o deploy feito através do Heroku.<br>
 -Se preferir utilizar um cluster personalizado através do MongoDB Atlas, forneça a URL necessária no arquivo ```.env```.<br>
--Caso deseje utilizar a API através do heroku basta acessar o seguinte endereço: ```https://posts-blog-api.herokuapp.com/````.<br>
+-Caso deseje utilizar a API através do heroku basta acessar o seguinte endereço: ```https://posts-blog-api.herokuapp.com/````. <br>
 -Lembre-se de checar os scripts no ```package.json``` caso execute um servidor local.
 
 ### 💻🖱Testando rotas
@@ -50,7 +50,7 @@ Segue o JSON como exemplo: <br>
 
 #### Atualizando usuário
 
--Para atualizar o usuário, faça um requisição do tipo **PUT** para a rota: ```http://localhost:3392/users/:_id```<br>
+-Para atualizar o usuário, faça um requisição do tipo **PUT** para a rota: ```http://localhost:3392/users/:_id``` <br>
 ou ```https://posts-blog-api.herokuapp.com/users/:_id```, passando um JSON no corpo da requisição, como o seguinte exemplo: 
 
 
