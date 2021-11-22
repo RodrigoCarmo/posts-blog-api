@@ -50,7 +50,8 @@ Segue o JSON como exemplo: <br>
 
 #### Atualizando usuário
 
--Para atualizar o usuário, faça um requisição do tipo **PUT** para a rota: ```http://localhost:3392/users/:_id``` ou ```https://posts-blog-api.herokuapp.com/users/:_id```, passando um JSON no corpo da requisição, como o seguinte exemplo: 
+-Para atualizar o usuário, faça um requisição do tipo **PUT** para a rota: ```http://localhost:3392/users/:_id```<br>
+ou ```https://posts-blog-api.herokuapp.com/users/:_id```, passando um JSON no corpo da requisição, como o seguinte exemplo: 
 
 
 ```JSON
@@ -77,8 +78,10 @@ passando um JSON no corpo da requisição, como o seguinte exemplo:
 ```
 
 #### Listando usuários
--Para listar um usuário pelo ID acesse a rota com o método **GET**: ```http://localhost:3392/users/:_id``` ou ```https://posts-blog-api.herokuapp.com/users/:_id```.
--Para listar por email acesse a rota com o método **GET**: ```http://localhost:3392/users``` ou ```https://posts-blog-api.herokuapp.com/users```. Com o seguinte JSON como exemplo:
+-Para listar um usuário pelo ID acesse a rota com o método **GET**: ```http://localhost:3392/users/:_id``` <br>
+ou ```https://posts-blog-api.herokuapp.com/users/:_id```.
+-Para listar por email acesse a rota com o método **GET**: ```http://localhost:3392/users``` <br>
+ou ```https://posts-blog-api.herokuapp.com/users```. Com o seguinte JSON como exemplo:
 
 ```JSON
 
@@ -88,11 +91,13 @@ passando um JSON no corpo da requisição, como o seguinte exemplo:
 
 ```
 
--Listar todos os usuários com o método **GET** na seguinte rota: ```http://localhost:3392/users/all`` ou ```https://posts-blog-api.herokuapp.com/users/all```.
+-Listar todos os usuários com o método **GET** na seguinte rota: ```http://localhost:3392/users/all`` <br>
+ ou ```https://posts-blog-api.herokuapp.com/users/all```.
 
 #### Criando posts
 Para criar postagens é necessário estar autenticado com um usuário válido.<br>
--Crie uma postagem na seguinte rota do tipo **POST**: ```http://localhost:3392/posts`` ou ```https://posts-blog-api.herokuapp.com/posts```. Exemplo em JSON: 
+-Crie uma postagem na seguinte rota do tipo **POST**: ```http://localhost:3392/posts`` <br>
+ou ```https://posts-blog-api.herokuapp.com/posts```. Exemplo em JSON: 
 
 
 ```JSON
@@ -123,7 +128,8 @@ enviando o ID da postagem em um JSON no corpo da requisição, como o seguinte e
 
 #### Atualizando posts
 
--Para atualizar o usuário, faça um requisição do tipo **PUT** para a rota: ```http://localhost:3392/posts/:_id``` ou ```https://posts-blog-api.herokuapp.com/posts/:_id```, com o ID nos parâmetros de rota, passando um JSON no corpo da requisição, como o seguinte exemplo: 
+-Para atualizar o usuário, faça um requisição do tipo **PUT** para a rota: ```http://localhost:3392/posts/:_id``` <br>
+ou ```https://posts-blog-api.herokuapp.com/posts/:_id```, com o ID nos parâmetros de rota, passando um JSON no corpo da requisição, como o seguinte exemplo: 
 
 
 ```JSON
@@ -138,8 +144,10 @@ enviando o ID da postagem em um JSON no corpo da requisição, como o seguinte e
 
 
 #### Listando posts
--Para listar um post pelo ID acesse a rota com o método **GET**: ```http://localhost:3392/posts/:_id``` ou ```https://posts-blog-api.herokuapp.com/posts/:_id```.
--Listar todos os usuários com o método **GET** na seguinte rota: ```http://localhost:3392/posts/all`` ou ```https://posts-blog-api.herokuapp.com/posts/all```.
+-Para listar um post pelo ID acesse a rota com o método **GET**: ```http://localhost:3392/posts/:_id``` <br>
+ou ```https://posts-blog-api.herokuapp.com/posts/:_id```.
+-Listar todos os usuários com o método **GET** na seguinte rota: ```http://localhost:3392/posts/all`` <br> 
+ou ```https://posts-blog-api.herokuapp.com/posts/all```.
 
 
 ### 🔗Tecnologias
